@@ -15,11 +15,81 @@
 </head>
 
 <body>
+<header>
+ <div class="flexContainer" id="jump1">
+            <div id="headerName">
+                <p> Valeria Monreal</p>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html"> Home</a></li>
+                    <li><a href="about.html"> About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+  
+</header>
+<main>
+<section class="shadow contactHeader">
+    <h1>Contact Us</h1>
+    <p>Have questions? Fill out the form below and we'll get back to you soon!</p>
+</section>
 
-<!-- Your content will go here -->
-<p> this is my home page</p>
+<section>
+<div class="flexContainer">
+<div class="flexItem shadow contactForm">
+<form action="mailto:valeriamonreal76@gmail.com" method="post" enctype="text/plain">
 
-<p> new change here</p>
+<label for="name">Full Name *</label><br>
+<input type="text" id="name" name="name" value="Enter your full name"><br><br>
+
+<label for="email">Email *</label><br>
+<input type="email" id="email" name="email"><br><br>
+<label for="subject">Subject *</label><br>
+<select id="subject" name="subject">
+<option value="medical">This email is medical in nature</option>
+<option value="personal">This email is personal in nature</option>
+<option value="group">This email is for a group</option>
+</select>
+<br><br>
+
+<label for="message">Message *</label><br>
+<textarea id="message" name="message"></textarea><br><br>
+
+<input type="submit" value="Send Message">
+
+</form>
+</div>
+
+<div class="flexItem contactSidebar">
+<div class="contactInfo shadow">
+<h4>contact info</h4>
+<p><strong>Email</strong><br>info@student.edu</p>
+<p><strong>Phone</strong><br>(555) 555-5555</p>
+<p><strong>Location</strong><br>123 Learning Lane<br>Student City, TX 12345</p>
+</div>
+
+<div class="officeHrs shadow">
+<h4>Office Hours</h4>
+<p>Monday - Friday.......... 9-5</p>
+<p>Saturday.................. 9-5</p>
+<p>Sunday.................... closed</p>
+            </div>
+        </div>
+    </div>
+</section>
+</main>
+<footer>
+
+    <p id="footerText">© 2026 Student Portfolio. All rights reserved.</p>
+    <ul id="footerNav">
+                    <li><a href="#jump1"> Jump Link 1</a></li>
+                    <li><a href="#jump2"> Jump Link 2</a></li>
+                    
+                </ul>
+
+</footer>
 </body>
 
 </html>
